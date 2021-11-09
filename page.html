@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <div class="Header" style="display: flex; align-items: center;">
+        <div class="m-drop-down-wrapper">
+            <div class="m-header-logo m-icon"></div>
+            <div class="m-header-drop-down">
+                <div class="m-header-drop-down-text">Chi nhánh Misa miền Bắc</div>
+                <span class="m-header-drop-down-icon m-icon"><i class="fas fa-angle-down angle-down"></i></span>
+            </div>
+        </div>
+
+        <div class="m-header-user-wrapper">
+            <div class="m-notification-icon m-icon" style="margin-right: 16px;"><i class="far fa-bell"></i></div>
+            <div class="m-user-avatar m-icon"></div>
+            <div class="m-user-name" style="margin-right: 16px; font-size: 13px;">Vũ Xuân Trường</div>
+            <div class="m-more-icon m-icon"></div>
+        </div>
+    </div>
+    <!--  -->
+    <div class="Content">
+        <div class="m-content-header">
+            <div class="m-content-header-text">Danh sách nhân viên</div>
+            <div style="padding-right: 16px; display: flex;">
+                <button class="m-content-header-add-btn m-btn-add m-btn"><i class="fas fa-user-plus m-icon plus-icon"></i>Thêm nhân viên</button>
+            </div>
+        </div>
+        <div class="m-content-search-filter">
+            <div>
+                <input class="m-input m-input-search" type="text" placeholder="Tìm kiếm thông tin">
+
+                <select class="m-combobox" name="" id="" style="margin-left: 8px;">
+                    <option value="">Tất cả phòng ban</option>
+                    <option value="">Nữ</option>
+                </select>
+
+                <select class="m-combobox" name="" id="" style="margin-left: 8px;">
+                    <option value="">Tất cả vị trí</option>
+                    <option value="">Nữ</option>
+                </select>
+            </div>
+
+            <div class="m-reset-filter">
+                <div class="m-reset-icon m-icon"></div>
+            </div>
+
+        </div>
+        <div class="m-content-table-wrapper">
+            <table class="m-table" border="1">
+                <thead>
+                    <tr>
+                        <th class="text-align-left" style="width: 100px;">Mã Nhân Viên</th>
+                        <th class="text-align-left" style="width: 120px;">Họ và tên</th>
+                        <th class="text-align-left" style="width: 60px;">Giới tính</th>
+                        <th class="text-align-center" style="width: 100px;">Ngày sinh</th>
+                        <th class="text-align-left" style="width: 100px;">Điện thoại</th>
+                        <th class="text-align-left" style="width: 100px;">Email</th>
+                        <th class="text-align-left" style="width: 80px;">Chức vụ</th>
+                        <th class="text-align-left" style="width: 110px;">Phòng ban</th>
+                        <th class="text-align-right" style="width: 110px;">Mức lương cơ bản</th>
+                        <th class="text-align-left" style="width: 130px;">Tình trạng công việc</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td class="text-align-left">NV-123456</td>
+                        <td class="text-align-left">Vũ Xuân Trường</td>
+                        <td class="text-align-left">Nam</td>
+                        <td class="text-align-center">03/05/2000</td>
+                        <td class="text-align-left">0389804235</td>
+                        <td class="text-align-left">truonglong352000@gmail.com</td>
+                        <td class="text-align-left">Intern</td>
+                        <td class="text-align-left">Phòng Công Nghệ</td>
+                        <td class="text-align-right">2000000</td>
+                        <td class="text-align-left">Đang thử việc</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="m-content-footer"></div>
+    </div>
+    <!--  -->
+    <div class="sideBar">
+        <div class="m-logo-box">
+            <div class="m-toggle"></div>
+            <div class="m-logo-page"></div>
+        </div>
+        <!--  -->
+        <div class="m-nav-box">
+            <div class="m-menu-item">
+                <div class="m-item-icon m-icon" style="background-image: url(/source/Resource/icon/dashboard.png);"></div>
+                <div class="menu-text">Tổng quan</div>
+            </div>
+
+            <div class="m-menu-item">
+                <div class="m-item-icon m-icon" style="background-image: url(/source/Resource/icon/report.png);"></div>
+                <div class="menu-text">Báo cáo</div>
+            </div>
+
+            <div class="m-menu-item">
+                <div class="m-item-icon m-icon" style="background-image: url(/source/Resource/icon/document-online.png);"></div>
+                <div class="menu-text">Mua hàng</div>
+            </div>
+
+            <div class="m-menu-item">
+                <div class="m-item-icon m-icon" style="background-image: url(/source/Resource/icon/dic-employee.png);"></div>
+                <div class="menu-text">Danh mục nhân viên</div>
+            </div>
+
+            <div class="m-menu-item">
+                <div class="m-item-icon m-icon" style="background-image: url(/source/Resource/icon/setting.png);"></div>
+                <div class="menu-text">Thiết lập hệ thống</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

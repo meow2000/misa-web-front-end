@@ -1,0 +1,33 @@
+.m-icon { 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.m-icon-warning {
+    color: orange;
+}
+
+.m-item-icon { 
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.m-more-icon {
+    background-image: url('/source/Resource/icon/option.png');
+    width: 20px;
+    height: 20px;
+}
+
+.m-reset-icon {
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+    background-image: url('/source/Resource/icon/refresh.png');
+}

@@ -1,0 +1,27 @@
+@import url('../css/components/button.css');
+@import url('../css/layout/sideBar.css');
+@import url('../css/layout/Header.css');
+@import url('../css/layout/Content.css');
+@import url('../css/components/icon.css');
+@import url('../css/components/input.css');
+@import url('../css/components/table.css');
+
+body {
+    font-family: GoogleSans;
+    margin: 0;
+}
+
+@font-face {
+    font-family: GoogleSans;
+    src: url('../source/Resource/font/GoogleSans-Regular.otf');
+}
+
+@font-face {
+    font-family: GoogleSans-Bold;
+    src: url('../source/Resource/font/GoogleSans-Bold.otf');
+}
+
+@font-face {
+    font-family: GoogleSans-Italic;
+    src: url('../source/Resource/font/GoogleSans-Italic.otf');
+}

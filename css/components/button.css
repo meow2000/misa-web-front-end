@@ -1,0 +1,68 @@
+.m-btn{
+    background-color: #019160;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: normal;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    min-width: 100px;
+}
+
+.m-btn:hover, .m-drop-down:hover{
+    background-color: #2FBE8E;
+}
+
+.m-btn:active, .m-drop-down:active{
+    background-color: #01B075;
+}
+/* -------------------------------- */
+.m-btn-add, .m-btn-save {
+    text-align: left;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.m-btn-add>.plus-icon {
+    padding-right: 8px;
+}
+
+/* ---------------------------------- */
+
+.m-split-btn {
+    display: inline-flex;
+}
+
+.save-icon {
+    padding-right: 8px;
+}
+
+.m-save {
+    display: flex;
+    align-items: center;
+    border-right: 1.5px solid #01B075;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.m-drop-down {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background-color: #019160;
+    border-radius: 0px 4px 4px 0px;
+    height: 40px;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+}

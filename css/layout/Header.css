@@ -1,0 +1,50 @@
+.Header{
+    height: 48px;
+    width: calc(100% - 226px);
+    float: right;
+    border-bottom: 1px solid #eee;
+    justify-content: space-between;
+}
+
+.m-drop-down-wrapper {
+    display: flex;
+    padding-left: 24px;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.m-header-logo {
+    background-color: aqua;
+    width: 32px;
+    height: 32px;
+}
+
+.m-header-drop-down{
+    display: flex;
+}
+
+.m-header-drop-down-text {
+    margin: 10px;
+    /* width: 20px; */
+    height: 20px;
+    font-weight: bold;
+}
+
+.m-header-drop-down-icon {
+    height: 40px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.m-user-avatar {
+    background-image: url('/source/Resource/icon/avatar-default.png');
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+}
+
+.m-header-user-wrapper {
+    display: flex; 
+    align-items: center;
+    padding-right: 16px;
+}
